@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.offer span{
+    font-weight: bold;
+}
+.offer button {
+    background-color: hotpink;
+    border-radius: 10px;
+    width: 70px;
+    color: white;
+    border-color: hotpink;
+}
+.offer{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.offer button:hover {
+    background-color: #a714e1;
+    transition: 0.7s;
+}
